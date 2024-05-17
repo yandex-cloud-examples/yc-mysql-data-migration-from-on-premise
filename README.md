@@ -1,5 +1,3 @@
-# Название сценария
+# Миграция базы данных из стороннего кластера MySQL в кластер Yandex Managed Service for MySQL
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете перенести данные из стороннего кластера-источника MySQL в кластер-приемник [Managed Service for MySQL](https://yandex.cloud/ru/docs/managed-mysql) с помощью создания и восстановления логического дампа. Подготовка инфраструктуры для Managed Service for MySQL через Terraform описана в [практическом руководстве](https://yandex.cloud/ru/docs/tutorials/dataplatform/mysql-data-migration#logical-dump), необходимый для настройки конфигурационный файл [data-migration-mysql-mmy.tf](data-migration-mysql-mmy.tf) расположен в этом репозитории.
