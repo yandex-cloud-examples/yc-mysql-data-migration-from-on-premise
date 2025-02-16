@@ -1,0 +1,3 @@
+# Migrating databases from a third-party MySQL cluster to a Yandex Managed Service for MySQL cluster
+
+To transfer data from a third-party MySQL source cluster to a [Managed Service for MySQL](https://yandex.cloud/docs/managed-mysql) target cluster, you can create a logical dump to restore your data from it. See [this tutorial](https://yandex.cloud/docs/tutorials/dataplatform/mysql-data-migration#logical-dump) to learn how to prepare the infrastructure for Managed Service for MySQL using Terraform. See this repository for the configuration file you will need: [data-migration-mysql-mmy.tf](data-migration-mysql-mmy.tf).
